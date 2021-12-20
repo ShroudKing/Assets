@@ -1,4 +1,4 @@
-local preferences = {
+{
 	genders = {'male', 'female'},
 	skinTones = {
 		['White'] = Color3.fromRGB(255, 215, 188),
