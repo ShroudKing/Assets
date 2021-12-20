@@ -1,42 +1,42 @@
 {
-	genders = {'male', 'female'},
-	skinTones = {
-		['White'] = Color3.fromRGB(255, 215, 188),
-		['Light Tan'] = Color3.fromRGB(239, 185, 148),
-		['Medium Tan'] = Color3.fromRGB(232, 173, 130),
-		['Dark Tan'] = Color3.fromRGB(204, 142, 105),
-		['Light Brown'] = Color3.fromRGB(172, 119, 88),
-		['Medium Brown'] = Color3.fromRGB(144, 99, 73),
-		['Dark Brown'] = Color3.fromRGB(121, 84, 62),
-		['Black'] = Color3.fromRGB(81, 56, 41)
+	"genders": ["male", "female"],
+	"skinTones": {
+		"White": [255, 215, 188],
+		"Light Tan": [239, 185, 148],
+		"Medium Tan": [232, 173, 130],
+		"Dark Tan": [204, 142, 105],
+		"Light Brown": [172, 119, 88],
+		"Medium Brown": [144, 99, 73],
+		"Dark Brown": [121, 84, 62],
+		"Black": [81, 56, 41]
 	},
-	names = {
-		male = {
-			'Noah', 'William', 'James', 'Oliver', 'Benjamin', 'Elijah', 'Lucas', 'Mason', 'Logan', 'Alexander',
-			'Ethan', 'Jacob', 'Michael', 'Daniel', 'Henry', 'Jackson', 'Aiden', 'Matthew', 'Samuel', 'David',
-			'Joseph', 'Carter', 'Owen', 'Wyatt', 'John', 'Timothy', 'Luke', 'Jayden', 'Dylan', 'Levi',
-			'Isaac', 'Gabriel', 'Julian', 'Anthony', 'Joshua', 'Christopher', 'Andrew', 'Caleb', 'Ryan', 'Edward',
-			'Nathan', 'Thomas', 'Isaiah', 'Charles', 'Josiah', 'Christian', 'Hunter', 'Connor', 'Aaron', 'Adrian',
-			'Jonathan', 'Jeremiah', 'Colton', 'Cameron', 'Carson', 'Robert', 'Angel', 'Nicholas', 'Dominic',
-			'Adam', 'Austin', 'Santiago', 'Jordan', 'Cooper', 'Brayden', 'Leonardo', 'Parker', 'Miles', 'Lorenzo',
-			'Jason', 'Weston', 'Ayden', 'Luca', 'Vincent', 'Gavin', 'Harrison', 'Kingston', 'Cole', 'Tyler',
-			'Bennett', 'Ryker', 'Tristan', 'Brandon', 'Kevin', 'Luis', 'George', 'Ashton', 'Ryder', 'Diego',
-			'Maxwell', 'Carlos', 'Kaiden', 'Juan', 'Calvin', 'Giovanni', 'Jonah', 'Brooks', 'Elliot', 'Antonio',
-		},
-		female = {
-			'Emma', 'Olivia', 'Ava', 'Isabella', 'Sophia', 'Charlotte', 'Mia', 'Amelia', 'Harper', 'Evelyn',
-			'Abigail', 'Emily', 'Elizabeth', 'Mila', 'Ella', 'Avery', 'Sofia', 'Camila', 'Aria', 'Scarlett',
-			'Victoria', 'Madison', 'Luna', 'Grace', 'Chloe', 'Penelope', 'Layla', 'Riley', 'Zoey', 'Nora',
-			'Lily', 'Eleanor', 'Hannah', 'Lillian', 'Addison', 'Aubrey', 'Ellie', 'Stella', 'Natalie', 'Zoe',
-			'Leah', 'Hazel', 'Violet', 'Aurora', 'Savannah', 'Audrey', 'Brooklyn', 'Bella', 'Claire', 'Skylar',
-			'Lucy', 'Paisley', 'Everly', 'Anna', 'Caroline', 'Nova', 'Genesis', 'Emilia', 'Kennedy', 'Samantha',
-			'Maya', 'Willow', 'Kinsley', 'Naomi', 'Aaliyah', 'Elena', 'Sarah', 'Ariana', 'Allison', 'Gabriella',
-			'Alice', 'Madelyn', 'Cora', 'Ruby', 'Eva', 'Serenity', 'Autumn', 'Adeline', 'Hailey', 'Gianna',
-			'Valentina', 'Isla', 'Eliana', 'Quinn', 'Nevaeh', 'Ivy', 'Sadie', 'Piper', 'Lydia', 'Alexa',
-			'Josephine', 'Emery', 'Julia', 'Delilah', 'Arianna', 'Vivian', 'Kaylee', 'Sophie', 'Jade', 'Katherine'
-		}
+	"names": {
+		"male": [
+			"Noah", "William", "James", "Oliver", "Benjamin", "Elijah", "Lucas", "Mason", "Logan", "Alexander",
+			"Ethan", "Jacob", "Michael", "Daniel", "Henry", "Jackson", "Aiden", "Matthew", "Samuel", "David",
+			"Joseph", "Carter", "Owen", "Wyatt", "John", "Timothy", "Luke", "Jayden", "Dylan", "Levi",
+			"Isaac", "Gabriel", "Julian", "Anthony", "Joshua", "Christopher", "Andrew", "Caleb", "Ryan", "Edward",
+			"Nathan", "Thomas", "Isaiah", "Charles", "Josiah", "Christian", "Hunter", "Connor", "Aaron", "Adrian",
+			"Jonathan", "Jeremiah", "Colton", "Cameron", "Carson", "Robert", "Angel", "Nicholas", "Dominic",
+			"Adam", "Austin", "Santiago", "Jordan", "Cooper", "Brayden", "Leonardo", "Parker", "Miles", "Lorenzo",
+			"Jason", "Weston", "Ayden", "Luca", "Vincent", "Gavin", "Harrison", "Kingston", "Cole", "Tyler",
+			"Bennett", "Ryker", "Tristan", "Brandon", "Kevin", "Luis", "George", "Ashton", "Ryder", "Diego",
+			"Maxwell", "Carlos", "Kaiden", "Juan", "Calvin", "Giovanni", "Jonah", "Brooks", "Elliot", "Antonio",
+		],
+		"female": [
+			"Emma", "Olivia", "Ava", "Isabella", "Sophia", "Charlotte", "Mia", "Amelia", "Harper", "Evelyn",
+			"Abigail", "Emily", "Elizabeth", "Mila", "Ella", "Avery", "Sofia", "Camila", "Aria", "Scarlett",
+			"Victoria", "Madison", "Luna", "Grace", "Chloe", "Penelope", "Layla", "Riley", "Zoey", "Nora",
+			"Lily", "Eleanor", "Hannah", "Lillian", "Addison", "Aubrey", "Ellie", "Stella", "Natalie", "Zoe",
+			"Leah", "Hazel", "Violet", "Aurora", "Savannah", "Audrey", "Brooklyn", "Bella", "Claire", "Skylar",
+			"Lucy", "Paisley", "Everly", "Anna", "Caroline", "Nova", "Genesis", "Emilia", "Kennedy", "Samantha",
+			"Maya", "Willow", "Kinsley", "Naomi", "Aaliyah", "Elena", "Sarah", "Ariana", "Allison", "Gabriella",
+			"Alice", "Madelyn", "Cora", "Ruby", "Eva", "Serenity", "Autumn", "Adeline", "Hailey", "Gianna",
+			"Valentina", "Isla", "Eliana", "Quinn", "Nevaeh", "Ivy", "Sadie", "Piper", "Lydia", "Alexa",
+			"Josephine", "Emery", "Julia", "Delilah", "Arianna", "Vivian", "Kaylee", "Sophie", "Jade", "Katherine"
+		]
 	},
-	hats = {
+	"hats": [
 		4922363458, 4036737464, 5063815350, 125886373, 425117435, 6902079407, 7540806865, 14462497, 4584711575, 2646473721,
         4684658997, 1360068971, 1609402609, 3138460373, 4556535529, 3972353362, 6410139388, 6202310514, 21681881, 271015438,
         4482835737, 6377328912, 5163939793, 6238847820, 7902781922, 91675439, 7969727356, 6377274935, 4911189519, 8134608741,
@@ -47,9 +47,9 @@
         5918614390, 141740648, 116778296, 32661648, 8263626473, 8139136046, 8274338842, 8152437444, 8159006997, 8141944006,
         8043189480, 7368609844, 7243929132, 6971068380, 425118283, 27814348, 57778376, 125861531, 271016558, 244160223,
         113329164, 13207429, 113328418, 19399503, 638098596, 122284842, 33683309, 119085213, 298084053, 116778751
-	},
-	hair = {
-		male = {
+	],
+	"hair": {
+		"male": [
 			16630147, 553722174, 451221329, 6413085241, 417457139, 4932554634, 6594919952, 5164439083, 32278814, 6065664364,
             6594923674, 63690008, 7667707103, 323476364, 1360044714, 376524487, 6594922800, 846803597, 15913837, 6413034281,
             17877340, 5920341268, 5153072488, 6742021963, 221175027, 4735347390, 20372960, 7107570073, 3814474927, 6310159312,
@@ -59,9 +59,9 @@
             7234999232, 6937475552, 5461524301, 7097623523, 7212275402, 6742021157, 5269079172, 5461545832, 6777879380, 376805560,
             77359955, 456225312, 5233587854, 5064649981, 6504848802, 4773873546, 6777876655, 3814450142, 376809157, 4903936880,
             7097619839, 7030676445, 6777877985, 6310034213, 6238870813, 62246484, 5857748158, 6682612049, 4755275939, 7104608125,
-            5230721625, 7028768863, 5461547469, 26658141, 1180432690, 13477818, 80921949, 5163619571, 6413424520, 5104941072,
-		},
-		female = {
+            5230721625, 7028768863, 5461547469, 26658141, 1180432690, 13477818, 80921949, 5163619571, 6413424520, 5104941072
+		],
+		"female": [
 			7554019685, 5860184632, 451220849, 7098840743, 6472141506, 5314006793, 6323557311, 7062039086, 5945436918, 7284085462,
             6536289312, 6005308235, 7032734415, 7069883034, 6413288640, 6778986933, 6522211748, 2956239660, 6501746646, 7062036000,
             6849134538, 6413290259, 7284112915, 7284206648, 5890690147, 7287753587, 6343602761, 7804193102, 6361582090, 5897464879,
@@ -71,18 +71,18 @@
             13745548, 7181552359, 7000726716, 7609780473, 6100039044, 8128966808, 6343739230, 7062561747, 7328485637, 6904229370,
             6105425755, 5197263386, 6473267983, 5858867347, 7171168055, 8129086535, 6564602366, 6239088262, 7336282685, 6256894291,
             6999077170, 6066605886, 5858859974, 6475391867, 7069888615, 11913660, 7667976932, 5918193105, 7169844001, 5769262031,
-            8129103843, 6202466665, 6239375692, 6239388754, 6852893149, 6036264253, 6387660463, 6066608745, 7668484580, 5945433814,
-		}
+            8129103843, 6202466665, 6239375692, 6239388754, 6852893149, 6036264253, 6387660463, 6066608745, 7668484580, 5945433814
+		]
 	},
-	faces = {
-		male = {
+	"faces": {
+		"male": [
 			26424808, 31117267, 209994929, 21635565, 277950647
-		},
-		unisex = {
+		],
+		"unisex": [
 			226217449, 2222771916, 22877700, 12145366, 7074729
-		},
-		female = {
+		],
+		"female": [
 			25166274, 7506135, 10907541, 23932048, 32873408
-		}
+		]
 	}
 }
